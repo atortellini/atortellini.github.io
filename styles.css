@@ -2,42 +2,28 @@
 
 /* Body Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
 }
 
 /* Header Styles */
 h1 {
-    text-align: center;
 }
 
 /* Section Styles */
 h2 {
-    margin-top: 40px;
 }
 
 /* Project and Textbook Styles */
 ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 li {
     content: "- "; 
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 a {
-    color: #007bff;
-    text-decoration: none;
+
 }
 
 a:hover {
-    text-decoration: underline;
+
 }
