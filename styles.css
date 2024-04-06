@@ -1,29 +1,22 @@
 /* styles.css */
 
-/* Body Styles */
-body {
-}
-
-/* Header Styles */
-h1 {
-}
-
-/* Section Styles */
-h2 {
-}
-
-/* Project and Textbook Styles */
+/* List Styles */
 ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-li:before {
-    content: "- "; 
+li {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-a {
-
-}
-
-a:hover {
-
+li::before {
+    content: "-";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
